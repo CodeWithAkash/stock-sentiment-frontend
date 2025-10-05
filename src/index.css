@@ -1,0 +1,123 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 40px;
+}
+
+/* Search bar */
+.search-bar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  padding: 12px 20px;
+  width: 300px;
+  border-radius: 30px;
+  border: 2px solid #1f3c88;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.search-bar input:focus {
+  border-color: #0d1b4c;
+  box-shadow: 0 0 5px rgba(31,60,136,0.5);
+}
+
+.search-bar button {
+  padding: 12px 30px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #1f3c88;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #0d1b4c;
+}
+
+/* Cards for table and chart */
+.card {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #1f3c88;
+  color: white;
+  border-radius: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #dce4f7;
+  cursor: pointer;
+}
+
+/* Sentiment cards */
+.sentiment-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.sentiment-card {
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.positive { background-color: #27ae60; }
+.negative { background-color: #c0392b; }
+.neutral { background-color: #f39c12; }
+
+/* Chart container */
+.chart-container {
+  max-width: 500px;
+  margin: auto;
+}
