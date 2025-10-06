@@ -34,10 +34,10 @@ It provides an interactive React-based user interface where users can search for
 ## 📸 Screenshots
 
 ### 🏠 Home Page &  📊 Sentiment Results
-![Home Page](./screenshots/homepage.png)
+![Home Page]("C:\Users\iamak\OneDrive\Scans\Pictures\homepage.png")
 
 ### Piechart
-![Piechart](./screenshots/piechart.png)
+![Piechart]("C:\Users\iamak\OneDrive\Scans\Pictures\piechart.png")
 
 
 ## ⚙️ Installation & Setup
