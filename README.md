@@ -31,6 +31,14 @@ It provides an interactive React-based user interface where users can search for
 | API Connection | Axios |
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page &  📊 Sentiment Results
+![Home Page](./screenshots/homepage.png)
+
+### Piechart
+![Piechart](./screenshots/piechart.png)
+
 
 ## ⚙️ Installation & Setup
 
